@@ -13,3 +13,49 @@
  *= require_tree .
  *= require_self
  */
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1{
+  padding: 10px;
+  margin-bottom: 0;
+  font-family: "Hiragino Sans";
+}
+
+.title,.body,.button{
+  margin:20px;
+}
+
+.table{
+  padding:50px;
+  padding-top: 0;
+}
+
+.link_destory,.link_edit,.link_show{
+  padding: 5px;
+}
+
+.error{
+  color: red;
+}
+
+.showtitle{
+  padding:40px;
+  padding-bottom: 0;
+
+}
+
+.showbody{
+  padding:40px;
+}
+
+.link_edit_back{
+  padding: 20px
+}
+
+.name{
+  font-family: 'Roboto',arial,sans-serif;
+}
