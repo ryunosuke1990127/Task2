@@ -39,7 +39,7 @@ class BooksController < ApplicationController
     #編集ホームに入力された情報に更新
     if @book.update(book_params)
       # 内容に問題がなければフラッシュメッセージを表示しリダイレクト
-    flash[:notice] = "Book was successfully updaed."
+    flash[:notice] = "Book was successfully updated."
     redirect_to book_path(@book.id)
     else
     render:edit
